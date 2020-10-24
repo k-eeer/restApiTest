@@ -28,9 +28,10 @@ step 2:setting arguments and press "start swarming" to run Loading test.<br />
 
 # the output:<br />
 There should be one html report page of Pytest and one Locust page.<br />
-
-https://github.com/k-eeer/restApiTest/tree/master/the%20output
-
-
-
-
+According to the figures below,the server is able to handle 2 requests per second, <br />
+when load tested with 30 current users. <br />
+![](https://github.com/k-eeer/restApiTest/blob/master/the%20output/numberOfUsers.png)<br />
+![](https://github.com/k-eeer/restApiTest/blob/master/the%20output/totalRequestsPerSecond.png)<br /><br />
+In the figure below,the median response time(green line) is 7ms,<br />
+and 95% response time(yellow line) is 15ms then<br />
+![](https://github.com/k-eeer/restApiTest/blob/master/the%20output/responseTimes.png)<br />
